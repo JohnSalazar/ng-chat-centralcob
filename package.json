@@ -1,6 +1,7 @@
 {
-  "name": "ng-chat",
-  "version": "0.0.0",
+  "name": "ng-chat-centralcob",
+  "version": "1.0.0",
+  "description": "Chat da aplicação CentralCOB",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,6 +9,12 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "keywords": [
+    "chat",
+    "centralcob"
+  ],
+  "author": "Joao Bosco Salazar <joaobosco.salazar@gmail.com>",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.2.0",
@@ -23,6 +30,7 @@
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^16.2.1",
     "@angular/cli": "~16.2.1",
     "@angular/compiler-cli": "^16.2.0",
     "@types/jasmine": "~4.3.0",
@@ -32,6 +40,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^16.2.0",
     "typescript": "~5.1.3"
   }
 }
